@@ -1,4 +1,331 @@
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 650px) and (max-width:960px) {
+    .container {
+        width: 75%;
+    }
+
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 110px;
+        overflow: hidden;
+        transition: 0.6s;
+        z-index: 1002;
+        position: sticky;
+        top: 0;
+        background-color: #ffffff;
+
+    }
+
+    .container-header {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 5px 40px 0px rgb(80 101 142 / 8%);
+        align-items: center;
+        position: sticky;
+        top: 0;
+        padding: 0;
+        z-index: 10000;
+        background-color: transparent;
+    }
+
+    .header-container-logo>h2 {
+        font-size: 28px;
+        font-weight: 700;
+        display: inline-block;
+        letter-spacing: normal;
+        cursor: pointer;
+        color: #e52f37;
+    }
+
+    /* slider */
+    .container-slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .slider-content {
+        width: 47%;
+    }
+
+    .slider-signup {
+        background-color: rgba(255, 255, 255, 1);
+        width: 47%;
+        height: 463px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px 5px;
+    }
+
+    .container-featured {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-content-sub {
+        height: 90%;
+        width: 48%;
+    }
+
+    .discover-content h3 {}
+
+    .about {
+        height: 980px;
+    }
+
+    .card--active {
+        transition: all 2.5 ease-in-out;
+        height: 350px;
+    }
+}
+
+/* phone */
+
+@media screen and (min-width: 350px) and (max-width:649px) {
+    
+
+    .container {
+        width: 90%;
+    }
+
+    .slider {
+        height: 1100px;
+        width: 100%;
+    }
+
+    .container-slider {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .slider-signup {
+        width: 90%;
+    }
+
+    .container-featured {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        height: 1000px;
+    }
+
+    .container-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-items {
+        width: 80%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .discorver {
+        height: 903px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start
+    }
+
+    .container-discorver {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 70px;
+    }
+
+    .container-img-sub {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container-content-sub {
+        width: 100%;
+    }
+
+    .about {
+        height: 903px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start
+    }
+
+    .container-about {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 70px;
+    }
+
+    .about-content-item-sub {
+        height: 100%;
+        width: inherit;
+        padding: 20px 20px;
+    }
+
+    .about-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        box-shadow: inherit;
+        margin-top: 20px;
+    }
+
+
+
+    .parallax {}
+
+    .container-fun-fact {
+        padding-top: 100px;
+    }
+
+    .fun-fact {
+        height: 1000px;
+        display: block;
+    }
+
+    .fun-fact-items {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap !important;
+        align-items: center;
+
+    }
+
+    .fun-fact-item {
+        max-width: 100% !important;
+    }
+
+    .feedback__section-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100% !important;
+    }
+
+    .c-4 {
+        max-width: 100% !important;
+    }
+
+    .feedback__review-platform {
+        display: flex;
+        justify-content: center;
+    }
+
+    .c-6 {
+        max-width: 100% !important;
+    }
+
+    .feedback__card {
+        max-width: 100%;
+        width: 500px;
+    }
+
+    .meet-team-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meet-team {
+        height: auto;
+    }
+
+    .work__card {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .row {
+        width: 100% !important;
+    }
+
+    .c-7 {
+        max-width: 100% !important;
+    }
+
+    .feature__block {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .feature__section {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .pricing__section {
+        height: auto;
+    }
+
+    .pricing__content {
+        display: flex;
+
+        align-items: center;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .container-footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .footer-item {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .quesion {
+        height: auto;
+
+    }
+
+    .container-question {
+        padding: 20px 0px;
+    }
+
+    .question-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+    }
+
+    .question-body {
+        padding-top: 10px;
+    }
+}
+@media screen and (min-width: 350px) and (max-width:960px)
+{
     .navbar__icons {
         display: flex;
         justify-content: center;
@@ -7,11 +334,13 @@
         height: 100%;
         cursor: pointer;
         transition: all 0.3s ease-in;
-        z-index: 10000111;
+        /* z-index: 10000111; */
     }
+
     .header-container-menu>ul {
         display: none;
         list-style: none;
-    
+        position: absolute;
     }
+
 }

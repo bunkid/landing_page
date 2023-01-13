@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header"> 
 
         <div class="container container-header">
             <div class="header-container-logo">
@@ -25,11 +25,11 @@
                 </h2>
             </div>
             <div class="header-container-menu">
-                <ul>
+                <ul class="navbar-links">
                     <li class="header-container-list-menu-item"><a href="#" class="menu-item">Home</a></li>
-                    <li class="header-container-list-menu-item"><a href="#" class="menu-item">About</a></li>
-                    <li class="header-container-list-menu-item"><a href="#" class="menu-item">Testimonials</a></li>
-                    <li class="header-container-list-menu-item"><a href="#" class="menu-item">Work</a></li>
+                    <li class="header-container-list-menu-item"><a href="#about" class="menu-item">About</a></li>
+                    <li class="header-container-list-menu-item"><a href="#discorver" class="menu-item">Testimonials</a></li>
+                    <li class="header-container-list-menu-item"><a href="#work" class="menu-item">Work</a></li>
                     <li class="header-container-list-menu-item"><a href="#" class="menu-item">Team</a></li>
                     <li class="header-container-list-menu-item"><a href="#" class="menu-item">Features</a></li>
                     <li class="header-container-list-menu-item"><a href="#" class="menu-item">Pricing</a></li>
@@ -38,15 +38,26 @@
                     </li>
                 </ul>
                 <!-- button menu -->
-           
-                <button class="navbar__icons">
+
+                <div class="navbar__icons">
                     <div class="navbar__icon"></div>
-                  </button>
-              
+                </div>
+
             </div>
-            
-            
-        </div>  
+
+
+        </div>
+        <div class="model-menu">
+            <ul class="navbar-links">
+                <li class="header-container-list-menu-item"><a href="#" class="menu-item">Home</a></li>
+                <li class="header-container-list-menu-item"><a href="#about" class="menu-item">About</a></li>
+                <li class="header-container-list-menu-item"><a href="#discorver" class="menu-item">Testimonials</a></li>
+                <li class="header-container-list-menu-item"><a href="#work" class="menu-item">Work</a></li>
+                <li class="header-container-list-menu-item"><a href="#" class="menu-item">Team</a></li>
+                <li class="header-container-list-menu-item"><a href="#" class="menu-item">Features</a></li>
+                <li class="header-container-list-menu-item"><a href="#" class="menu-item">Pricing</a></li>
+            </ul>
+        </div>
     </div>
     <div class="slider">
 
@@ -105,7 +116,7 @@
             </div>
         </div>
     </div>
-    <div class="featured">
+    <div class="featured" id="about">
 
         <div class="container container-featured">
             <h5 class="partners-title">As featured in:</h5>
@@ -153,7 +164,7 @@
             </div>
         </div>
     </div>
-    <div class="discorver">
+    <div class="discorver" id="discorver">
 
         <div class="container container-discorver">
             <div class="discover-img container-img-sub">
@@ -397,113 +408,90 @@
     </div> -->
     <section class="work__section general-padding" id="work">
         <div class="grid wide">
-          <div class="work__content">
-            <h2 class="work__title section-title">Our Portfolio</h2>
-            <p class="work__subtitle section-subtitle">
-              Dicover the latest projects accomplished for my clients.
-            </p>
-            <div class="work__card row no-gutters">
-              <div class="col c-4">
-                <div class="work__card-1">
-                  <div class="card-wrap">
-                    <img
-                      src="./public/img/gallery1.jpg"
-                      alt=""
-                      class="work__card-img"
-                    />
-                    <div class="card__overlay-sub"></div>
-                    <div class="card__overlay">
-                      <div class="work__icon-image">
-                        <img
-                          src="./public/img/baseline_zoom_in_white_24dp.png"
-                          alt=""
-                          class="work-icon"
-                        />
-                      </div>
+            <div class="work__content">
+                <h2 class="work__title section-title">Our Portfolio</h2>
+                <p class="work__subtitle section-subtitle">
+                    Dicover the latest projects accomplished for my clients.
+                </p>
+                <div class="work__card row no-gutters">
+                    <div class="col c-4">
+                        <div class="work__card-1">
+                            <div class="card-wrap">
+                                <img src="./public/img/gallery1.jpg" alt="" class="work__card-img" />
+                                <div class="card__overlay-sub"></div>
+                                <div class="card__overlay">
+                                    <div class="work__icon-image img-thumbnail">
+                                        <img src="./public/img/baseline_zoom_in_white_24dp.png" alt=""
+                                            class="work-icon" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wrap">
+                                <img src="./public/img/gallery2.jpg" alt="" class="work__card-img" />
+                                <div class="card__overlay-sub"></div>
+                                <div class="card__overlay">
+                                    <div class="work__icon-image img-thumbnail">
+                                        <img src="./public/img/baseline_zoom_in_white_24dp.png" alt=""
+                                            class="work-icon" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card-wrap">
-                    <img
-                      src="./public/img/gallery2.jpg"
-                      alt=""
-                      class="work__card-img"
-                    />
-                    <div class="card__overlay-sub"></div>
-                    <div class="card__overlay">
-                      <div class="work__icon-image">
-                        <img
-                          src="./public/img/baseline_zoom_in_white_24dp.png"
-                          alt=""
-                          class="work-icon"
-                        />
-                      </div>
+                    <div class="col c-4">
+                        <div class="work__card-2">
+                            <div class="card-wrap">
+                                <img src="./public/img/gallery3.jpg" alt="" class="work__card-img" />
+                                <div class="card__overlay-sub"></div>
+                                <div class="card__overlay">
+                                    <div class="work__icon-image img-thumbnail">
+                                        <img src="./public/img/baseline_zoom_in_white_24dp.png" alt=""
+                                            class="work-icon" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                    <div class="col c-4">
+                        <div class="work__card-3">
+                            <div class="card-wrap">
+                                <img src="./public/img/gallery4.jpg" alt="" class="work__card-img" />
+                                <div class="card__overlay-sub"></div>
+                                <div class="card__overlay">
+                                    <div class="work__icon-image img-thumbnail">
+                                        <img src="./public/img/baseline_zoom_in_white_24dp.png" alt=""
+                                            class="work-icon" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-wrap">
+                                <img src="./public/img/gallery5.jpg" alt="" class="work__card-img" />
+                                <div class="card__overlay-sub"></div>
+                                <div class="card__overlay">
+                                    <div class="work__icon-image img-thumbnail">
+                                        <img src="./public/img/baseline_zoom_in_white_24dp.png" alt=""
+                                            class="work-icon" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col c-4">
-                <div class="work__card-2">
-                  <div class="card-wrap">
-                    <img
-                      src="./public/img/gallery3.jpg"
-                      alt=""
-                      class="work__card-img"
-                    />
-                    <div class="card__overlay-sub"></div>
-                    <div class="card__overlay">
-                      <div class="work__icon-image">
-                        <img
-                          src="./public/img/baseline_zoom_in_white_24dp.png"
-                          alt=""
-                          class="work-icon"
-                        />
-                      </div>
-                    </div>
-                  </div>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
                 </div>
-              </div>
-              <div class="col c-4">
-                <div class="work__card-3">
-                  <div class="card-wrap">
-                    <img
-                      src="./public/img/gallery4.jpg"
-                      alt=""
-                      class="work__card-img"
-                    />
-                    <div class="card__overlay-sub"></div>
-                    <div class="card__overlay">
-                      <div class="work__icon-image">
-                        <img
-                          src="./public/img/baseline_zoom_in_white_24dp.png"
-                          alt=""
-                          class="work-icon"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-wrap">
-                    <img
-                      src="./public/img/gallery5.jpg"
-                      alt=""
-                      class="work__card-img"
-                    />
-                    <div class="card__overlay-sub"></div>
-                    <div class="card__overlay">
-                      <div class="work__icon-image">
-                        <img
-                          src="./public/img/baseline_zoom_in_white_24dp.png"
-                          alt=""
-                          class="work-icon"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
     <div class="meet-team">
 
         <div class="container meet-team-container">
@@ -767,7 +755,7 @@
                             sedis.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="question-items row">
                     <div class="question-item col c-6">
                         <h4>
                             Velit ut tortizi pretium viverra suspendisse?
@@ -793,31 +781,31 @@
         <div class="contact-us">
 
             <div class="container container-contact-us">
-                 <div class="contact-us-header">
+                <div class="contact-us-header">
                     <h3>Contact Us</h3>
                     <p> Have any queries? Get in touch today.</p>
-                 </div>
-                 <div class="contact-us-body">
-                        <div class="contact-body-item ">
-                             <input class="input" type="text" name="" id="" placeholder="Your Name*" >
-                             <input class="input" type="text" name="" id="" placeholder="Email Address**" >
-                        </div>
-                        <div class="contact-body-item footer-contact ">
-                            <input class="input" type="text" name="" id="" placeholder="Phone Number*">
-                            <select id="cars">
-                                <option value="volvo">Choose Option</option>
-                                <option value="saab">Inđividual</option>
-                                <option value="opel">Corporate</option>
-                  
-                              </select>
-                        </div>
-                        <div class="contact-body-item ">
-                            <input class="contactt-item-footer" type="text" name="" id="" placeholder="Your Message">
-                        </div>
-                 </div>
-                 <div class="contact-us-footer">
-                              <button>GET IN TOUCH</button>
-                 </div>
+                </div>
+                <div class="contact-us-body">
+                    <div class="contact-body-item ">
+                        <input class="input" type="text" name="" id="" placeholder="Your Name*">
+                        <input class="input" type="text" name="" id="" placeholder="Email Address**">
+                    </div>
+                    <div class="contact-body-item footer-contact ">
+                        <input class="input" type="text" name="" id="" placeholder="Phone Number*">
+                        <select id="cars">
+                            <option value="volvo">Choose Option</option>
+                            <option value="saab">Inđividual</option>
+                            <option value="opel">Corporate</option>
+
+                        </select>
+                    </div>
+                    <div class="contact-body-item ">
+                        <input class="contactt-item-footer" type="text" name="" id="" placeholder="Your Message">
+                    </div>
+                </div>
+                <div class="contact-us-footer">
+                    <button>GET IN TOUCH</button>
+                </div>
             </div>
         </div>
     </div>
@@ -829,15 +817,15 @@
                 <p>© 2020 <span>LaunchPage</span>.Designed by <a target="_blank"
                         href="https://themeforest.net/user/epic-themes/portfolio?ref=Epic-Themes">Epic-Themes</a> </p>
             </div>
-            <div class="footer-item ">
-                    <p>Follw us:</p>
-                    <ul class="footer-icons">
-                        <li class="footer-icon"><i class="fa-brands fa-twitter" ></i></li>
-                        <li class="footer-icon"><i class="fa-brands fa-pinterest" style="color: #C92228;"></i></li>
-                        <li class="footer-icon"><i class="fa-brands fa-facebook" style="color: #3b5998;"></i></li>
-                        <li class="footer-icon"><i class="fa-brands fa-instagram"style="color: #8a3ab9;" ></i></li>
-                        <li class="footer-icon"><i class="fa-brands fa-skype" style="color: #1e90ff;"></i></li>
-                    </ul>
+            <div class="footer-item">
+                <p>Follw us:</p>
+                <ul class="footer-icons">
+                    <li class="footer-icon"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="footer-icon"><i class="fa-brands fa-pinterest" style="color: #C92228;"></i></li>
+                    <li class="footer-icon"><i class="fa-brands fa-facebook" style="color: #3b5998;"></i></li>
+                    <li class="footer-icon"><i class="fa-brands fa-instagram" style="color: #8a3ab9;"></i></li>
+                    <li class="footer-icon"><i class="fa-brands fa-skype" style="color: #1e90ff;"></i></li>
+                </ul>
             </div>
         </div>
     </div>
