@@ -7,6 +7,10 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.model-menu
+{
+    display: none;
+}
 
 .btn-red {
     font-family: 'Nunito', sans-serif;
@@ -1800,7 +1804,7 @@
 
 
 .navbar__icons {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
@@ -1808,8 +1812,8 @@
     cursor: pointer;
     transition: var(--smooth);
     z-index: 6;
-    margin-right: 0px;
-    /* display: no; */
+    margin-right: 0px; */
+    display: none;
 }
 
 .navbar__icon {
@@ -1873,7 +1877,7 @@
     position: absolute;
     /* transform: translateY(-100%); */
     z-index: 5;
-    background-color: red;
+    background-color: #fff;
 }
 
 

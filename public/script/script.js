@@ -87,11 +87,12 @@ for( i = 0; i <coll.length; i++)
   } 
 
 
-  const menu = document.querySelector(".navbar-links");
+  const menu = document.querySelector(".model-menu");
   const menuButton = document.querySelector(".navbar__icons");
+  
   menuButton.addEventListener('click',()=>
 {
-    menu.classList.toggle("navbar__open");
+    menu.classList.toggle("openmenu");
     menuButton.classList.toggle("open");
     
 })

@@ -342,5 +342,16 @@
         list-style: none;
         position: absolute;
     }
+    .model-menu
+    {
+          transform:  translateY(-64%);
+    }
+    .openmenu
+    {
+        display: block;
+        transform: translateY(64%);
+        width: 100%;
+        transition: all .3s ease-in;
+    }
 
 }
