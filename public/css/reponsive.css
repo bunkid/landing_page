@@ -9,7 +9,7 @@
         display: flex;
         justify-content: center;
         height: 110px;
-        overflow: hidden;
+        
         transition: 0.6s;
         z-index: 1002;
         position: sticky;
@@ -323,6 +323,20 @@
     .question-body {
         padding-top: 10px;
     }
+    .award
+    {
+        height: auto;
+    }
+    .container-award
+    {
+        padding: 100px;
+        width: 100%;
+    }
+  
+    .pricing__content
+    {
+        display: flex;
+    }
 }
 @media screen and (min-width: 350px) and (max-width:960px)
 {
@@ -340,18 +354,32 @@
     .header-container-menu>ul {
         display: none;
         list-style: none;
-        position: absolute;
+     
     }
     .model-menu
-    {
-          transform:  translateY(-64%);
+    {     
+          display: block;
+          transform: translateY(-64%);
+          transition: all 0.5s ease-in;
+          width: 100%;
+          
     }
-    .openmenu
+    .navbar-links
     {
-        display: block;
-        transform: translateY(64%);
-        width: 100%;
-        transition: all .3s ease-in;
+        list-style: none;
     }
 
+    .openmenu
+{
+    display: block;
+    transform: translateY(64%);
+    width: 100%;
+    /* transition: all 1.5s ease-in; */
+
+}
+.closemuenu
+{
+    display: block;
+    transform: translateY(-64%);
+}
 }
